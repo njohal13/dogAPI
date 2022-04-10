@@ -1,0 +1,41 @@
+html {
+  font-size: 1.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: linear-gradient(rgb(205, 217, 233), rgb(106, 171, 233));
+  height: 100vh; /* background covers 100%, no space at bottom at page. */
+}
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+select {
+  font-size: 1rem;
+}
+.section-container {
+  display: flex;
+  flex-direction: row;
+
+  padding-left: 10vw; /* puts space on the left side vw adjusts based on screen size */
+  padding-right: 10vw; /* vw adjusts based on screen size */
+}
+.column {
+  margin: 2vh;
+  flex: 1; /* both columns take up equal space in the row. flex: 1, 2 gives dif sizes */
+}
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+span {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.3rem;
+}
+#dog-name {
+  font-size: 2rem;
+  text-decoration: none;
+}
+#left-column {
+  text-align: center; /* aligns all the contents incl img of left-column to center */
+}
